@@ -1,3 +1,24 @@
 body {
   font-family: sans-serif;
 }
+
+.l-container {
+  background: blue;
+  padding: 50vh 10vw;
+}
+
+.l-block {
+  background: red;
+  height: 700px;
+  width: 100%;
+  position: relative;
+}
+
+.l-block-item {
+  background: black;
+  display: block;
+  bottom: 0;
+  height: 100px;
+  width: 100px;
+  position: relative;
+}
